@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/Epic_Action"
+                android:title="@string/Epic_Action"
+            />
+            <item
+                android:id="@+id/Arcade"
+                android:title="@string/Arcade"
+            />
+            <item
+                android:id="@+id/Classic"
+                android:title="@string/Classic"
+            />
+            <item
+                android:id="@+id/Deathmetal"
+                android:title="@string/Deathmetal"
+            />
+            <item
+                android:id="@+id/Hiphop"
+                android:title="@string/Hiphop"
+            />
+            <item
+                android:id="@+id/Dubstep"
+                android:title="@string/Dubstep"
+            />
+    </group>
+</menu>

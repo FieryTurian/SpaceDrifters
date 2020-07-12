@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SpaceDrifters</string>
+    <string name="_100_coins">100 Coins</string>
+    <string name="_200_coins">200 Coins</string>
+    <string name="_500_coins">500 Coins</string>
+    <string name="_coins">Coins:</string>
+    <string name="_current_amount">0</string>
+    <string name="shop">Shop</string>
+    <string name="Epic_Action">Epic_Action</string>
+    <string name="Arcade">Arcade</string>
+    <string name="Classic">Classic</string>
+    <string name="Deathmetal">Deathmetal</string>
+    <string name="Hiphop">Hiphop</string>
+    <string name="Dubstep">Dubstep</string>
+</resources>

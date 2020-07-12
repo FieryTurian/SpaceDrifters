@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Settings">
+
+    <ImageView
+        android:id="@+id/img_Title"
+        android:layout_width="270dp"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spacedrifters_settings" />
+
+    <ImageButton
+        android:id="@+id/btn_SelectMusic"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_Title"
+        app:srcCompat="@drawable/sd_buttonselectmusic" />
+
+    <ImageButton
+        android:id="@+id/btn_MuteMusic"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_SelectMusic"
+        app:srcCompat="@drawable/sd_buttonmutemusic" />
+
+    <ImageButton
+        android:id="@+id/btn_UnMuteMusic"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_SelectMusic"
+        app:srcCompat="@drawable/button_unmute_music" />
+
+    <ImageButton
+        android:id="@+id/btn_MuteSound"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_MuteMusic"
+        app:srcCompat="@drawable/sd_buttonmutesound" />
+
+    <ImageButton
+        android:id="@+id/btn_UnMuteSound"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_MuteMusic"
+        app:srcCompat="@drawable/button_unmute_sound" />
+
+    <ImageButton
+        android:id="@+id/btn_Back"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_MuteSound"
+        app:srcCompat="@drawable/sd_buttonback" />
+
+</android.support.constraint.ConstraintLayout>
