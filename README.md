@@ -6,7 +6,7 @@ Group:
 - Tom Koning
 - Felix Molder
 - Stefan Popa
-- Denise Vebakel
+- Denise Verbakel
 
 ---------------------------------------------------------------------
 
